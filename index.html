@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizera</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="images/x-icon" href="images\favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="quiz">
+        <div class="heading">
+          <p style="color: black" class="titleOfweb">Quizera</p>
+          <p class="subtitleOfweb">
+            Brain Busters: Test Your JavaScript Knowledge
+          </p>
+        </div>
+
+        <div class="result hide">
+          <p></p>
+          <p class="reload">
+            <button onclick="document.location.reload(true)">Try Again</button>
+          </p>
+        </div>
+        <form class="Quiz-form">
+          <div class="Question">
+            <p>1.Which of the following scoping type does JavaScript use?</p>
+            <div class="option">
+              <input type="radio" name="Q1" value="A" unchecked />
+              <label for="">A Sequential</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q1" value="B" />
+              <label for="">B Segmental</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q1" value="C" />
+              <label for="">C Lexical</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q1" value="D" />
+              <label for="">D Literal</label>
+            </div>
+          </div>
+          <div class="Question">
+            <p>
+              2.Which of the following can be used to call a JavaScript Code
+              Snippet?
+            </p>
+            <div class="option">
+              <input type="radio" name="Q2" value="A" unchecked />
+              <label for="">A Function/Method</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q2" value="B" />
+              <label for="">B Preprocessor</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q2" value="C" />
+              <label for="">C Triggering Event </label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q2" value="D" />
+              <label for="">D RMI</label>
+            </div>
+          </div>
+          <div class="Question">
+            <p>
+              3.Arrays in JavaScript are defined by which of the following
+              statements?
+            </p>
+            <div class="option">
+              <input type="radio" name="Q3" value="A" unchecked />
+              <label for="">A "It is an ordered list of values"</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q3" value="B" />
+              <label for="">B "It is an ordered list of objects"</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q3" value="C" />
+              <label for="">C "It is an ordered list of string"</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q3" value="D" />
+              <label for="">D "It is an ordered list of functions"</label>
+            </div>
+          </div>
+          <div class="Question">
+            <p>
+              4. Which of the following methods/operation does javascript use
+              instead of == and !=?
+            </p>
+            <div class="option">
+              <input type="radio" name="Q4" value="A" unchecked />
+              <label for="">A JavaScript uses equalto()</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q4" value="B" />
+              <label for=""
+                >B JavaScript uses equals() and notequals() instead</label
+              >
+            </div>
+            <div class="option">
+              <input type="radio" name="Q4" value="C" />
+              <label for="">C JavaScript uses bitwise checking</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q4" value="D" />
+              <label for="">D JavaScript uses === and !== instead</label>
+            </div>
+          </div>
+          <div class="Question">
+            <p>
+              5.What is the prototype represents in the following JavaScript
+              code snippet? .
+            </p>
+            <div class="hk1_style">
+              <div class="javascript">
+                <pre
+                  class="de1"
+                ><span class="kw1">function</span> javascript<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span><span class="sy0">;</span></pre>
+              </div>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q5" value="A" checked />
+              <label for="">A Not valid</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q5" value="B" />
+              <label for="">B Prototype of a function</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q5" value="C" />
+              <label for="">C Function javascript</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="Q5" value="D" />
+              <label for="">D A custom constructor</label>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" class="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="index.js"></script>
+
+    <footer>
+      <p>Made with ❤️ in India</p>
+    </footer>
+  </body>
+</html>
