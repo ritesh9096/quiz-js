@@ -11,7 +11,7 @@
     font-size: 16px;
     font-family: 'poppins' sans-serif;
     text-decoration: none;
-    list-style: none;
+    list-style: none;   
 }
 :root {
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
